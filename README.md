@@ -38,7 +38,7 @@ Afterwards, you need to add another array with the time durations of each face i
 When you're done with that, you'll need to add **_"const int FaceSizeX = sizeof(FaceEmoteTimeArray[X]) / sizeof(FaceEmoteTimeArray[X][0]);"_** for every face array you've add. The X should be replaced by a number that signifies the next iteration, so if you add one array that number should be 6, if you add another array the next code would have the number 7, ext.
 Lastly, do the same type of iteration to the **FaceSizeArray[]**, by adding the **_"FaceSizeX"_**.
 
-That's all you have to do, now upload your code and you're done, all you need to do is wait. Use the Particle function "FaceReveal" to show all the faces. (Check *Clock Alterations*)
+That's all you have to do, now upload your code and you're done, all you need to do is wait. Use the Particle function **"FaceReveal"** to show all the faces. (Check **_Clock Alterations_**)
 
 ### Clock Alterations
 Using your phone app or going on the **Console** in the [Web IDE](https://console.particle.io/devices). Choose your device and in the **Functione** bar you should see 6 particle functions.
