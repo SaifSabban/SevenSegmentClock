@@ -1,4 +1,4 @@
-#SevenSeg Clock
+# SevenSeg Clock
 
 This project combines a Particle Photon, and a seven-segment display to make a cute little clock.
 
@@ -6,12 +6,12 @@ This project combines a Particle Photon, and a seven-segment display to make a c
 
 Here is a link to an [instagram video](https://www.instagram.com/p/B_YmGSQH2iW/) of what it can do!
 
-###Notes
+### Notes
 
 This project is inspired by the SevSeg made by Mohit Bhoite. The original can be seen at: [https://www.bhoite.com/2015/08/sevenseg/].
 This project also uses a modified version of of the SevSeg library made by [Dean Reading](https://github.com/DeanIsMe/SevSeg).
 
-##Getting Started
+## Getting Started
 ### Prerequisites
 All the Components that are need can be found in the bellow list:
 <img src="images/BillOfMaterials.png"> 
