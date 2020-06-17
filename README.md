@@ -23,7 +23,7 @@ If you're using the Atom computer application, you can find the necessary files 
 
 Upload the Code to your Particle Photon, and connect the photon to the Seven Segment display as shown in the schematic.
 <img src="SevenSegClock_Schematic.png">
-Preferably, you'd connect everything via a breadboard and ensure everything is working.
+Preferably, you'd first connect everything via a breadboard and ensure everything is working.
 
 Lastly, when everything is running as intended, solder the brass rods and resistor to the Particle Photon. This can be done in your way, be creative if you want.
 
