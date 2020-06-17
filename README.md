@@ -27,7 +27,7 @@ Preferably, you'd connect everything via a breadboard and ensure everything is w
 
 Lastly, when everything is running as intended, solder the brass rods and resistor to the Particle Photon. This can be done in your way, be creative if you want.
 
-##Personalising The Clock
+## Personalising The Clock
 
 There are 2 ways to personalise the clock, first is by going into the code and making your face animation and the next is by setting the clock to show your proffered method of displaying the time.
 
