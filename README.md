@@ -18,7 +18,7 @@ All the Components that are need can be found in the bellow list:
 
 One needs to have the Particle Photon initialised and setup to their Wi-Fi and account. Following the guide at the [Particle Website](https://docs.particle.io/quickstart/photon/).
 
-Next, if you're using the Web IDE click on this [Link](https://go.particle.io/shared_apps/5ede67c9c9ad1e0007be8da7). It should open your Web IDE with all the necessary files needed.
+Next, if you're using the Web IDE click on this [Link](https://go.particle.io/shared_apps/5eea255f6c2eea000c4453d3). It should open your Web IDE with all the necessary files needed.
 If you're using the Atom computer application, you can find the necessary files needed under the SevenSegClock_V3 Zip.
 
 Upload the Code to your Particle Photon, and connect the photon to the Seven Segment display as shown in the schematic.
