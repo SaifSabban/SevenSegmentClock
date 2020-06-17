@@ -45,7 +45,7 @@ Using your phone app or going on the **Console** in the [Web IDE](https://consol
 
 **_DST Show 1_**: Adds an hour for daylights savings (This should automatically add or remove daylights savings per your area. However, I haven't tested it that far). To have daylight savings mode on, type in 1, otherwise type in 0
 
-**_FaceReveal_**: Choose a face sequence to show on the display. The default faces are between 0 & 5. If you haven't added any faces, then 6 will show the date. faces are added then the date will be the final value that you can input.
+**_FaceReveal_**: Choose a face sequence to show on the display. The default faces are between 0 & 5. If you haven't added any faces, then 6 will show the date. If any additional faces are added then the date will be the final value that you can input.
 
 **_HourFormat 24 0_**: Choose if you want the clock to be in 24-hour mode or 12-hour mode. For 24 hour mode, type 0. Otherwise for 12-hour mode, type 1.
 
