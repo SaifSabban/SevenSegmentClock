@@ -1,5 +1,4 @@
 # Seven Segment Clock
-
 This project combines a Particle Photon, and a seven-segment display to make a cute little clock.
 
 <img src="ClocksFace.jpg">
@@ -7,7 +6,6 @@ This project combines a Particle Photon, and a seven-segment display to make a c
 Here is a link to an [instagram video](https://www.instagram.com/p/B_YmGSQH2iW/) of what it can do!
 
 ### Notes
-
 This project is inspired by the SevSeg made by Mohit Bhoite. The original can be found [Here](https://www.bhoite.com/2015/08/sevenseg/).
 This project also uses a modified version of of the SevSeg library made by [Dean Reading](https://github.com/DeanIsMe/SevSeg).
 
@@ -28,11 +26,11 @@ Preferably, you'd first connect everything via a breadboard and ensure everythin
 Lastly, when everything is running as intended, solder the brass rods and resistors to the Particle Photon. This can be done in your way, be creative if you want.
 
 ## Personalising The Clock
-
 There are 2 ways to personalise the clock, first is by going into the code and making your face animation and the next is by setting the clock to show your preferred method of displaying the time.
 
 ### Face Animations
 To make your faces, you'll first need to refer to the character sheet, it shows whatever text character translates to in a digit of the Seven Segment display.
+
 <img src="Alphanumeric.jpg">
 
 Next, you'll need to go the FaceFunctions.h file and under FaceEmoteArray[] add a new array with up to 31 faces. If you want to add more faces just update the number 31 in FaceEmoteArray[][31] to the amount of faces you'll be using.
@@ -43,7 +41,6 @@ Lastly, do the same type of iteration to the FaceSizeArray[], by adding the "Fac
 That's all you have to do, now upload your code and you're done, all you need to do is wait. Use the Particle function "FaceReveal" to show all the faces. (Check *Clock Alterations*)
 
 ### Clock Alterations
-
 Using your phone app or going on the **Console** in the [Web IDE](https://console.particle.io/devices). Choose your device and in the **Functione** bar you should see 6 particle functions.
 **_DST Show 1_**: Adds an hour for daylights savings (This should automatically add or remove daylights savings per your area. However, I haven't tested it that far). To have daylight savings mode on, type in 1, otherwise type in 0
 **_FaceReveal_**: Choose a face sequence to show on the display. The default faces are between 0 & 5. If you haven't added any faces, then 6 will show the date. faces are added then the date will be the final value that you can input.
