@@ -29,7 +29,7 @@ Lastly, when everything is running as intended, solder the brass rods and resist
 There are 2 ways to personalise the clock, first is by going into the code and making your face animation and the next is by setting the clock to show your preferred method of displaying the time.
 
 ### Face Animations
-To make your faces, you'll first need to refer to the character sheet, it shows whatever text character translates to in a digit of the Seven Segment display.
+To make your faces, you'll first need to refer to the character sheet, it shows all the accepted text characters & how they present themselves on the Seven Segment display.
 
 <img src="Alphanumeric.jpg">
 
