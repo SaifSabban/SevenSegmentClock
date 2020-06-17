@@ -1,7 +1,7 @@
 # Seven Segment Clock
 This project combines a Particle Photon, and a seven-segment display to make a cute little clock.
 
-<img src="ClocksFace.jpg">
+<img src="Images/ClocksFace.jpg">
 
 Here is a link to an [instagram video](https://www.instagram.com/p/B_YmGSQH2iW/) of what it can do!
 
@@ -12,7 +12,7 @@ This project also uses a modified version of of the SevSeg library made by [Dean
 ## Getting Started
 ### Prerequisites
 All the Components that are need can be found in the bellow list:
-<img src="BillOfMaterial.png"> 
+<img src="Images/BillOfMaterial.png"> 
 
 One needs to have the Particle Photon initialised and setup to their Wi-Fi and account. Following the guide at the [Particle Website](https://docs.particle.io/quickstart/photon/).
 
@@ -20,7 +20,7 @@ Next, if you're using the Web IDE click on this [Link](https://go.particle.io/sh
 If you're using the Atom computer application, you can find the necessary files needed under the [SevenSegClock_V3 Zip](https://github.com/saifsabban/SevenSegmentClock/blob/master/SevenSegClock_V3.zip).
 
 Upload the Code to your Particle Photon, and connect the photon to the Seven Segment display as shown in the schematic.
-<img src="SevenSegClock_Schematic.png">
+<img src="Images/SevenSegClock_Schematic.png">
 Preferably, you'd first connect everything via a breadboard and ensure everything is working.
 
 Lastly, when everything is running as intended, solder the brass rods and resistors to the Particle Photon. This can be done in your way, be creative if you want.
@@ -31,7 +31,7 @@ There are 2 ways to personalise the clock, first is by going into the code and m
 ### Face Animations
 To make your faces, you'll first need to refer to the character sheet, it shows all the accepted text characters & how they present themselves on the Seven Segment display.
 
-<img src="Alphanumeric.jpg">
+<img src="Images/Alphanumeric.jpg">
 
 Next, you'll need to go the _FaceFunctions.h_ file and under **FaceEmoteArray[]** add a new array with up to 31 faces. If you want to add more faces just update the number 31 in **FaceEmoteArray[][31]** to the amount of faces you'll be using.
 Afterwards, you need to add another array with the time durations of each face in milliseconds. The sum of all the time durations needs to be devisable by 10000. This is due to the total duration of the faces being 10 seconds, if the faces are less than 10 seconds long then they will repeat.
