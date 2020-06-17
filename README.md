@@ -2,7 +2,7 @@
 
 This project combines a Particle Photon, and a seven-segment display to make a cute little clock.
 
-<img src="ClockFace.jpg">
+<img src="ClocksFace.jpg">
 
 Here is a link to an [instagram video](https://www.instagram.com/p/B_YmGSQH2iW/) of what it can do!
 
