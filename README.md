@@ -31,7 +31,7 @@ There are 2 ways to personalise the clock, first is by going into the code and m
 ### Face Animations
 To make your faces, you'll first need to refer to the character sheet, it shows all the accepted text characters & how they present themselves on the Seven Segment display.
 
-<img src="Images/Alphanumeric.jpg">
+<img src="Images/Alphanumeric.jpg"> 
 
 Next, you'll need to go the _FaceFunctions.h_ file and under **FaceEmoteArray[]** add a new array with up to 31 faces. If you want to add more faces just update the number 31 in **FaceEmoteArray[][31]** to the amount of faces you'll be using.
 Afterwards, you need to add another array with the time durations of each face in milliseconds. The sum of all the time durations needs to be devisable by 10000. This is due to the total duration of the faces being 10 seconds, if the faces are less than 10 seconds long then they will repeat.
