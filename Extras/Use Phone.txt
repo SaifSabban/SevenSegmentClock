@@ -1,0 +1,1 @@
+On CMD type "particle flash 190032000847373336323230 tinker"

@@ -1,0 +1,3 @@
+https://docs.particle.io/reference/developer-tools/cli/#particle-token-create
+
+type in CMD "particle token create --never-expires"
