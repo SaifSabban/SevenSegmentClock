@@ -1,7 +1,7 @@
 # Seven Segment Clock
 This project combines a Particle Photon, and a seven-segment display to make a cute little clock.
 
-<a href="[http://www.youtube.com/watch?feature=player_embedded&v=Wh2iQa-YZSA](http://youtube.com/shorts/Wh2iQa-YZSA)" target="_blank">
+<a href="[http://www.youtube.com/watch?feature=player_embedded&v=Wh2iQa-YZSA]" target="_blank">
  <img src="Images/ClocksFace.jpg" alt="Watch the video" width="938" height="980" border="10" />
 </a>
 
