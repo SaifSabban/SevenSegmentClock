@@ -1,9 +1,11 @@
 # Seven Segment Clock
 This project combines a Particle Photon, and a seven-segment display to make a cute little clock.
 
-<img src="Images/ClocksFace.jpg">
+// <img src="Images/ClocksFace.jpg">
 
-Here is a link to an [instagram video](https://www.instagram.com/p/B_YmGSQH2iW/) of what it can do!
+<a href="[http://www.youtube.com/watch?feature=player_embedded&v=Wh2iQa-YZSA](http://youtube.com/shorts/Wh2iQa-YZSA)" target="_blank">
+ <img src="Images/ClocksFace.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
 ### Notes
 This project is inspired by the SevSeg made by Mohit Bhoite. The original can be found [Here](https://www.bhoite.com/2015/08/sevenseg/).
