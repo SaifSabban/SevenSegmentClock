@@ -11,7 +11,7 @@ This project also uses a modified version of of the SevSeg library made by [Dean
 
 ## Getting Started
 ### Prerequisites
-All the Components that are need can be found in the bellow list:
+All the Components that are needed can be found in the bellow list:
 <img src="Images/BillOfMaterial.png"> 
 
 One needs to have the Particle Photon initialised and setup to their Wi-Fi and account. Following the guide at the [Particle Website](https://docs.particle.io/quickstart/photon/).
